@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 60vh;
+    left: 90vh;
+    height: 100%;
+}
+.abt-heading{
+    padding-right: 9px;
+}
+.abt{
+    color: brown;
+}
+.bt{
+    margin-right:10px;
+}
+.project{
+    width: 100%;
+    height: 100%;
+}
+.carousell-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+.carousels {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+  
+.carousels img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+  
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+.footer-content {
+    position: relative;
+    z-index: 2;
+    padding: 90px 0;
+}
+h2 a,ul li a,li{
+    text-decoration: none;
+    color: white;
+    list-style:none;
+}
+.footer-social-media i{
+    height: auto;
+    padding: 5px;
+    color: white;
+}
+.map{
+    box-sizing:border-box;
+    object-fit: fill;
+}
+.npp{
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+}
